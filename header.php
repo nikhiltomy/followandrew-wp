@@ -40,9 +40,9 @@
 				<?php
 				wp_nav_menu(
 					array(
-						'menu' => 'primary',
+						'menu' => 'footer',
 						'container' => '',
-						'theme_location' => 'primary',
+						'theme_location' => 'footer',
 						'items_wrap' => '<ul id=""  class="navbar-nav flex-column text-sm-center text-md-left" >%3$s</ul>'
 					)
 				);

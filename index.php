@@ -14,7 +14,12 @@ if ( have_posts() ) :
 endif; 
 ?>
 
+<?php
+  the_posts_pagination();
+?>
 </article>
+
+
 
 <?php
 get_footer();

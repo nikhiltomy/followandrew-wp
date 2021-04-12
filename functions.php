@@ -19,6 +19,7 @@ function followandrew_menus(){
 
 add_action('init','followandrew_menus');
 
+
 function followandrew_register_styles(){
    
    $version = wp_get_theme()->get('Version');
